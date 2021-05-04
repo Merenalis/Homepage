@@ -1,0 +1,364 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+margin: 0;
+    padding: 0;
+
+}
+#logo{
+    width: 56%;
+    margin: 35px auto 25px;
+}
+#path1{
+    float: right;
+}
+#hello{
+    height: 460px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+#hello h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+font-size: 55px;
+    color: #10cab7;
+}
+#hello span{
+    font-size: 20px;
+    line-height: 32px;
+    color: #2c4755;
+}
+#div-work{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+
+}
+.working{
+margin: auto;
+    height: 400px;
+padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+#div-work :hover{
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.1);
+
+}
+#idea p :hover{
+    box-shadow: none;
+
+}
+.working p{
+width: 275px;
+margin: auto;
+    font-size: 15px;
+    line-height: 32px;
+color: #575757;
+    padding-bottom: 65px;
+}
+.working h3{
+    font-size: 20px;
+    color: #2c4755;
+    padding-bottom: 30px;
+}
+.working img{
+    padding-top: 75px;
+    padding-bottom: 35px;
+}
+/*__________________________________________________SERVICES____________*/
+#services{
+    width: 100%;
+}
+#services h1{
+    font-size: 162px;
+    color: #f6f6f6;
+    line-height: 85px;
+    text-align: center;
+    margin-top: 85px;
+}
+#services h5{
+    font-size: 25px;
+color: #626262;
+    text-align: center;
+text-decoration: none;
+    font-weight: normal;
+}
+#services-blocks{
+    width: 1300px;
+
+    margin: 140px auto auto;
+}
+#blocks1{
+    display: flex;
+    margin-bottom: 40px;
+}
+#blocks2{
+    display: flex;
+
+}
+.block{
+    height: 170px;
+    width: 450px;
+}
+.block-text{
+    float: left;
+}
+.block img{
+    float: left;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+.block-text h2{
+    margin-bottom: 40px;
+}
+.block-text p{
+    line-height: 27px;
+    width: 325px;
+}
+#gr-bl-blocks{
+float: right;
+}
+#gray-block{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 330px;
+    background-color: #f6f6f6;
+right: 90px;
+    box-shadow: -1px 5px 5px rgba(0,0,0,0.1);
+}
+#blue-block{
+    position: relative;
+    right: -240px;
+    top: -50px;
+    float: left;
+    width: 100px;
+    height: 430px;
+    background-color: #2c4755;
+}
+/*_____________________________________________PORTFOLIO__________________________
+
+ */
+#portfolio{
+    background-color: #fafafa;
+    margin-top: 100px;
+    height: 970px;
+}
+#portfolio h1{
+    font-size: 162px;
+    color: #f6f6f6;
+    line-height: 85px;
+    text-align: center;
+    padding-top: 75px;
+}
+#portfolio h5{
+    font-size: 25px;
+    color: #626262;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+#portfolio-blocks{
+
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.portf-block{
+    width: 500px;
+}
+.space{
+    height: 370px;
+width: 500px;
+    background-color: #f6f6f6;
+
+}
+.proj-here{
+
+    height: 130px;
+float: bottom;
+    background-color: white;
+    padding-left: 30px;
+}
+.proj-here h3{
+    font-size: 20px;
+    line-height: 47px;
+
+}
+.proj-here span{
+    font-size: 15px;
+    line-height: 27px;
+}
+/*________________________________about___________________*/
+#about-section{
+    height: 450px;
+}
+#about-content{
+    width: 62%;
+    margin: auto;
+}
+#about h1{
+    font-size: 162px;
+    color: #f6f6f6;
+    line-height: 85px;
+    text-align: center;
+    padding-top: 75px;
+}
+#about h5{
+    font-size: 25px;
+    color: #626262;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+#about-figures{
+    width: 400px;
+    height: 440px;
+    float: left;
+}
+#square-gray{
+    position: relative;
+top: -393px;
+    right: -12px;
+    width: 300px;
+    height: 333px;
+    background-color: #f6f6f6;
+    float: left;
+    box-shadow: -1px 5px 5px rgba(0,0,0,0.1);
+
+}
+#strap-gray{
+    position: relative;
+    width: 110px;
+    height: 453px;
+    background-color: #fafafa;
+    float: left;
+
+}
+#strap-blue{
+    position: relative;
+    right: -45px;
+    top: 35px;
+    width: 189px;
+    height: 292px;
+    background-color: #10cab7;
+    float: right;
+
+}
+#strap-white{
+    position: relative;
+top: -751px;
+    right: -45px;
+    width: 99px;
+    height: 220px;
+    background-color: white;
+    float: right;
+border: white 1px solid;
+}
+
+
+
+#about-text{
+    float: right;
+    margin-top: 50px;
+}
+
+#text1{
+    width: 570px;
+    font-size: 20px;
+    color: #334752;
+    line-height: 40px;
+    font-weight: bold;
+}
+#text2{
+    width: 570px;
+    font-size: 15px;
+    line-height: 32px;
+
+}
+.spacing{
+    width: 273px;
+    border-bottom: #10cab7 solid 3px;
+    margin-bottom: 25px;
+    margin-top: 55px;
+}
+/*__________________________________CONTACT________*/
+#break{
+    width: 100%;
+    height: 525px;
+
+}
+#contact{
+    background-color: #fafafa;
+    height: 700px;
+
+}
+#contact h1{
+    font-size: 162px;
+    color: #f6f6f6;
+    line-height: 85px;
+    text-align: center;
+    padding-top: 75px;
+}
+#contact h5{
+    font-size: 25px;
+    color: #626262;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+#mail h1{
+    font-size: 55px;
+    color: #2c4755;
+    padding-top: 0;
+    text-align: left;
+margin-left: 19%;
+line-height: 92px;
+}
+#mail h3{
+    font-size: 50px;
+    color: #10cab7;
+    margin-left: 22%;
+
+}
+#networks{
+    margin-left: 25%;
+    margin-top: 50px;
+}
+#networks span{
+    font-size: 15px;
+    color: #40535d;
+    float: left;
+margin-right: 40px;
+}
+#network-img{
+    float: left;
+}
+#network-img img{
+    margin-right: 29px;
+}
+/*______________________footer_____________*/
+#footer{
+    background-color: #2c4755;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    height: 100px;
+font-weight: bold;
+line-height: 100px;
+}
+#footer span{
+
+}
+#leon{
+    color: #10cab7;
+}

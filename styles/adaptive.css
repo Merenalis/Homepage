@@ -1,0 +1,404 @@
+@media screen and (max-width: 1856px) {
+    #portfolio-blocks {
+
+        width: 97%;
+
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    #about-content {
+
+        width: 80%;
+
+    }
+}
+
+@media screen and (max-width: 1251px) {
+
+    #blocks1, #blocks2 {
+        display: initial;
+
+    }
+
+    .block {
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+
+    #gr-bl-blocks {
+        margin-top: 150px;
+    }
+
+    #services-blocks {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1563px) {
+
+    .portf-block {
+        width: 420px;
+    }
+
+    .space {
+        width: 420px;
+
+    }
+}
+
+@media screen and (max-width: 1319px) {
+    #portfolio {
+        height: 1970px;
+    }
+
+    #portfolio-blocks {
+        display: initial;
+        margin: auto;
+    }
+
+    .portf-block {
+        width: 700px;
+        margin: auto auto 20px;
+    }
+
+    .space {
+        width: 700px;
+
+    }
+
+    #about-content {
+
+        width: 95%;
+
+    }
+
+    #mail h1 {
+        font-size: 40px;
+    }
+
+    #mail h3 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1087px) {
+    #text1, #text2 {
+        width: 400px;
+    }
+
+    #break {
+        height: 625px;
+
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .block {
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 903px) {
+    #gr-bl-blocks {
+        display: none;
+    }
+
+    #about-figures {
+        margin-top: 20px;
+        padding-left: 25%;
+    }
+
+    #text1, #text2 {
+        width: 800px;
+    }
+
+    #break {
+        height: 825px;
+
+    }
+
+    #about h5 {
+        margin-bottom: 10px;
+    }
+
+    .block {
+        margin: auto auto 20px;
+    }
+
+    #div-work {
+        display: initial;
+    }
+
+    .working {
+        height: 300px;
+    }
+
+    .working img {
+        padding-top: 30px;
+    }
+
+    #services h1, #portfolio h1, #about h1 {
+        font-size: 100px;
+        line-height: 45px;
+
+    }
+
+    #services h5, #portfolio h5, #about h5 {
+        font-size: 20px;
+    }
+
+    #mail h1 {
+        margin-left: 7%;
+    }
+
+    #mail h3 {
+        margin-left: 10%;
+    }
+
+    #about-section {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 833px) {
+    #text1 {
+        width: 720px;
+
+    }
+
+    #text2 {
+        width: 720px;
+
+
+    }
+}
+
+@media screen and (max-width: 779px) {
+    #text1 {
+        width: 600px;
+
+    }
+
+    #text2 {
+        width: 600px;
+    }
+
+    #about-text {
+        margin-left: 300px;
+
+    }
+
+    #contact h1 {
+        font-size: 100px;
+        line-height: 45px;
+
+    }
+
+    #contact h5 {
+        font-size: 20px;
+    }
+
+    #mail h1 {
+        font-size: 30px;
+    }
+
+    #mail h3 {
+        font-size: 22px;
+    }
+
+    #contact {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .portf-block {
+        width: 550px;
+    }
+
+    .space {
+        width: 550px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 625px) {
+    #about-text {
+        margin-right: 50px;
+    }
+
+    #text1 {
+        font-size: 15px;
+        width: 400px;
+
+    }
+
+    #text2 {
+        font-size: 12px;
+        width: 400px;
+        margin: auto;
+    }
+
+    #about-figures {
+        padding-left: 80px;
+    }
+
+    #networks {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .portf-block {
+        width: 350px;
+    }
+
+    .space {
+        width: 350px;
+        height: 270px;
+
+    }
+
+    #about-figures {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #services h1, #portfolio h1, #about h1, #contact h1 {
+        font-size: 95px;
+        line-height: 40px;
+
+    }
+
+    #services h5, #portfolio h5, #about h5, #contact h5 {
+        font-size: 15px;
+    }
+
+    .block img {
+        padding-right: 20px;
+    }
+
+    #services-blocks {
+        margin-left: 20px;
+    }
+
+    .block-text p {
+        width: 225px;
+    }
+
+    .block {
+        padding-bottom: 80px;
+    }
+
+    #text1 {
+        width: 300px;
+
+    }
+
+    #text2 {
+        width: 300px;
+    }
+
+    #about-figures {
+        display: none;
+    }
+
+    #mail h1 {
+        font-size: 20px;
+    }
+
+    #mail h3 {
+        font-size: 15px;
+    }
+
+    #networks {
+        margin-left: 5%;
+    }
+
+    #about-section {
+        height: 70px;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    #networks {
+        margin-left: 8%;
+    }
+
+    #networks span {
+        margin-bottom: 10px;
+    }
+
+    #network-img {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 398px) {
+    #services h1, #portfolio h1, #about h1, #contact h1 {
+        font-size: 70px;
+        line-height: 30px;
+
+    }
+
+    #services h5, #portfolio h5, #about h5, #contact h5 {
+        font-size: 15px;
+
+    }
+
+    #mail h1 {
+        font-size: 20px;
+    }
+
+    #mail h3 {
+        font-size: 15px;
+    }
+
+    .portf-block {
+        width: 300px;
+    }
+
+    .space {
+        width: 300px;
+        height: 222px;
+
+    }
+
+    #portfolio {
+
+        height: 1520px;
+    }
+
+    #text1 {
+        width: 200px;
+        margin-left: 100px;
+
+    }
+
+    #text2 {
+        width: 200px;
+        margin-left: 100px;
+
+    }
+
+    .spacing {
+        width: 80%;
+        margin-left: 100px;
+
+    }
+
+    #about-text {
+    }
+}
