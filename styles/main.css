@@ -8,30 +8,37 @@ margin: 0;
     padding: 0;
 
 }
-#logo{
+.logo{
     width: 56%;
     margin: 35px auto 25px;
+    position: relative;
+    z-index: 1;
 }
-#path1{
+.logo i{
+    color: #575757;
     float: right;
+font-size: 30px;
 }
-#hello{
+.burger.active{
+    display: block;
+}
+.hello{
     height: 460px;
     text-align: center;
     background-color: #f6f6f6;
 }
-#hello h1{
+.hello h1{
     padding-top: 50px;
     padding-bottom: 50px;
 font-size: 55px;
     color: #10cab7;
 }
-#hello span{
+.hello span{
     font-size: 20px;
     line-height: 32px;
     color: #2c4755;
 }
-#div-work{
+.div-work{
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -45,21 +52,15 @@ padding-left: 7.5%;
     padding-right: 7.5%;
 }
 
-#div-work :hover{
-    box-shadow: 4px 4px 5px rgba(0,0,0,0.1);
 
-}
-#idea p :hover{
-    box-shadow: none;
 
-}
 .working p{
 width: 275px;
-margin: auto;
     font-size: 15px;
     line-height: 32px;
 color: #575757;
     padding-bottom: 65px;
+    margin: auto ;
 }
 .working h3{
     font-size: 20px;
@@ -70,34 +71,42 @@ color: #575757;
     padding-top: 75px;
     padding-bottom: 35px;
 }
+
+.div-work :hover{
+    box-shadow: 4px 4px 5px  rgba(0,0,0,0.1);
+
+}
+.working :hover{
+    box-shadow: none;
+}
 /*__________________________________________________SERVICES____________*/
-#services{
+.services{
     width: 100%;
 }
-#services h1{
+.services h1{
     font-size: 162px;
     color: #f6f6f6;
     line-height: 85px;
     text-align: center;
     margin-top: 85px;
 }
-#services h5{
+.services h5{
     font-size: 25px;
 color: #626262;
     text-align: center;
 text-decoration: none;
     font-weight: normal;
 }
-#services-blocks{
+.services-blocks{
     width: 1300px;
 
     margin: 140px auto auto;
 }
-#blocks1{
+.blocks1{
     display: flex;
     margin-bottom: 40px;
 }
-#blocks2{
+.blocks2{
     display: flex;
 
 }
@@ -120,10 +129,10 @@ text-decoration: none;
     line-height: 27px;
     width: 325px;
 }
-#gr-bl-blocks{
+.gr-bl-blocks{
 float: right;
 }
-#gray-block{
+.gray-block{
     position: relative;
     float: left;
     width: 300px;
@@ -132,7 +141,7 @@ float: right;
 right: 90px;
     box-shadow: -1px 5px 5px rgba(0,0,0,0.1);
 }
-#blue-block{
+.blue-block{
     position: relative;
     right: -240px;
     top: -50px;
@@ -144,19 +153,19 @@ right: 90px;
 /*_____________________________________________PORTFOLIO__________________________
 
  */
-#portfolio{
+.portfolio{
     background-color: #fafafa;
     margin-top: 100px;
     height: 970px;
 }
-#portfolio h1{
+.portfolio h1{
     font-size: 162px;
     color: #f6f6f6;
     line-height: 85px;
     text-align: center;
     padding-top: 75px;
 }
-#portfolio h5{
+.portfolio h5{
     font-size: 25px;
     color: #626262;
     text-align: center;
@@ -164,7 +173,7 @@ right: 90px;
     font-weight: normal;
     margin-bottom: 100px;
 }
-#portfolio-blocks{
+.portfolio-blocks{
 
     width: 82%;
     display: flex;
@@ -197,21 +206,21 @@ float: bottom;
     line-height: 27px;
 }
 /*________________________________about___________________*/
-#about-section{
+.about-section{
     height: 450px;
 }
-#about-content{
+.about-content{
     width: 62%;
     margin: auto;
 }
-#about h1{
+.about h1{
     font-size: 162px;
     color: #f6f6f6;
     line-height: 85px;
     text-align: center;
     padding-top: 75px;
 }
-#about h5{
+.about h5{
     font-size: 25px;
     color: #626262;
     text-align: center;
@@ -219,12 +228,12 @@ float: bottom;
     font-weight: normal;
     margin-bottom: 100px;
 }
-#about-figures{
+.about-figures{
     width: 400px;
     height: 440px;
     float: left;
 }
-#square-gray{
+.square-gray{
     position: relative;
 top: -393px;
     right: -12px;
@@ -235,7 +244,7 @@ top: -393px;
     box-shadow: -1px 5px 5px rgba(0,0,0,0.1);
 
 }
-#strap-gray{
+.strap-gray{
     position: relative;
     width: 110px;
     height: 453px;
@@ -243,7 +252,7 @@ top: -393px;
     float: left;
 
 }
-#strap-blue{
+.strap-blue{
     position: relative;
     right: -45px;
     top: 35px;
@@ -253,7 +262,7 @@ top: -393px;
     float: right;
 
 }
-#strap-white{
+.strap-white{
     position: relative;
 top: -751px;
     right: -45px;
@@ -266,19 +275,19 @@ border: white 1px solid;
 
 
 
-#about-text{
+.about-text{
     float: right;
     margin-top: 50px;
 }
 
-#text1{
+.text1{
     width: 570px;
     font-size: 20px;
     color: #334752;
     line-height: 40px;
     font-weight: bold;
 }
-#text2{
+.text2{
     width: 570px;
     font-size: 15px;
     line-height: 32px;
@@ -291,24 +300,24 @@ border: white 1px solid;
     margin-top: 55px;
 }
 /*__________________________________CONTACT________*/
-#break{
+.break{
     width: 100%;
     height: 525px;
 
 }
-#contact{
+.contact{
     background-color: #fafafa;
     height: 700px;
 
 }
-#contact h1{
+.contact h1{
     font-size: 162px;
     color: #f6f6f6;
     line-height: 85px;
     text-align: center;
     padding-top: 75px;
 }
-#contact h5{
+.contact h5{
     font-size: 25px;
     color: #626262;
     text-align: center;
@@ -316,7 +325,7 @@ border: white 1px solid;
     font-weight: normal;
     margin-bottom: 100px;
 }
-#mail h1{
+.mail h1{
     font-size: 55px;
     color: #2c4755;
     padding-top: 0;
@@ -324,30 +333,33 @@ border: white 1px solid;
 margin-left: 19%;
 line-height: 92px;
 }
-#mail h3{
+.mail h3{
     font-size: 50px;
     color: #10cab7;
     margin-left: 22%;
 
 }
-#networks{
+.networks{
     margin-left: 25%;
     margin-top: 50px;
 }
-#networks span{
+.networks span{
     font-size: 15px;
     color: #40535d;
     float: left;
 margin-right: 40px;
 }
-#network-img{
+.network-img{
     float: left;
 }
-#network-img img{
+.network-img i{
+    font-size: 25px;
+    color: #2c4755;
     margin-right: 29px;
+
 }
 /*______________________footer_____________*/
-#footer{
+.footer{
     background-color: #2c4755;
     font-size: 15px;
     text-align: center;
@@ -356,9 +368,9 @@ margin-right: 40px;
 font-weight: bold;
 line-height: 100px;
 }
-#footer span{
+.footer span{
 
 }
-#leon{
+.leon{
     color: #10cab7;
 }

@@ -7,61 +7,126 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/adaptive.css">
+    <link rel="stylesheet" href="styles/burger_style.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a92cacf3a.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 <header>
-    <div id="logo">
+    <div class="logo">
+
+
         <img src="images/Logo.png" alt="logo">
-        <img src="images/toast.png" id="path1" alt="path">
+        <i class="fas fa-bars"></i>
+
+
     </div>
-    <div id="hello">
+    <div class="burger">
+        <div class="burger-content">
+            <img src="images/Close%20Icon.png" alt="close">
+            <nav class="header_menu">
+                <p class="title">Menu</p>
+                <ul class="header_list">
+                    <li>
+                        <a href="" class="header_link">Home</a>
+                    </li>
+                    <li>
+                        <a href="" class="header_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="" class="header_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="" class="header_link">About</a>
+                    </li>
+                </ul>
+
+                <p class="title">Get in Touch</p>
+                <a href="">Contact Me</a>
+
+                <div class="getSocial">
+                    <p class="title">
+                        Get Social
+                    </p>
+                    <ul class="header_list">
+                        <li>
+                            <a href="" class="header_link">Behance</a>
+                        </li>
+                        <li>
+                            <a href="" class="header_link">Dribble</a>
+                        </li>
+                        <li>
+                            <a href="" class="header_link">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
+
+
+    </div>
+
+    <div class="hello">
         <h1>Hello There!</h1>
         <span>
             We are Leon - Super Creative & Minimal <br> Agency Web Template
         </span>
     </div>
 </header>
-<section id="work">
-    <div id="div-work">
+<section class="work">
+    <div class="div-work">
 
 
         <div class="working" id="idea">
-            <img src="images/lampa.png" alt="lampa">
-            <h3>Tell Us Your Idea</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ducimus laborum optio quis sint veritatis.</p>
+            <div class="working-content">
+                <img src="images/lampa.png" alt="lampa">
+                <h3>Tell Us Your Idea</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ducimus laborum optio quis sint veritatis.</p>
+            </div>
+
         </div>
         <div class="working" id="all-work">
-            <img src="images/kolba.png" alt="kolba">
-            <h3>We Will Do All The Work</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ducimus laborum optio quis sint veritatis.</p>
+            <div class="working-content">
+                <img src="images/kolba.png" alt="kolba">
+                <h3>We Will Do All The Work</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ducimus laborum optio quis sint veritatis.</p>
+            </div>
+
         </div>
         <div class="working" id="worldwide">
-            <img src="images/globus.png" alt="globus">
-            <h3>Your Product Is Worldwide</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ducimus laborum optio quis sint veritatis.</p>
+            <div class="working-content">
+                <img src="images/globus.png" alt="globus">
+                <h3>Your Product Is Worldwide</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ducimus laborum optio quis sint veritatis.</p>
+            </div>
+
         </div>
     </div>
 </section>
 <section>
-    <div id="services">
+    <div class="services">
         <h1>services</h1>
         <h5>Don't be busy, be productive</h5>
-        <div id="services-blocks">
-            <div id="gr-bl-blocks">
-                <div id="blue-block">
+        <div class="services-blocks">
+            <div class="gr-bl-blocks">
+                <div class="blue-block">
 
                 </div>
-                <div id="gray-block">
+                <div class="gray-block">
 
                 </div>
 
             </div>
-            <div id="blocks1">
+            <div class="blocks1">
                 <div class="block">
                     <img src="images/graph_des.png" alt="logo_graphic-design">
                     <div class="block-text">
@@ -86,7 +151,7 @@
             </div>
 
 
-            <div id="blocks2">
+            <div class="blocks2">
                 <div class="block">
                     <img src="images/uiux.png" alt="logo_ui-ux">
                     <div class="block-text">
@@ -116,10 +181,10 @@
 </section>
 
 <section>
-    <div id="portfolio">
+    <div class="portfolio">
         <h1>portfolio</h1>
         <h5>If you do it right, it will last forever.</h5>
-        <div id="portfolio-blocks">
+        <div class="portfolio-blocks">
             <div class="portf-block">
                 <div class="space">
 
@@ -164,54 +229,56 @@
     </div>
 </section>
 <section id="about-section">
-    <div id="about">
+    <div class="about">
         <h1>about</h1>
         <h5>Less is more work</h5>
-<div id="about-content">
-    <div id="about-text">
-        <div id="text1">
+        <div class="about-content">
+            <div class="about-text">
+                <div class="text1">
                 <span>Lorem ipsum dolor sit amet,  adipisicing elit. Ab aperiam asperiores at autem consectetur consequatur, dolorem et eveniet fugiat illo mollitia
                     natus necessitatibus omnis quia quo quod unde veniam voluptate.</span>
-        </div>
-        <div class="spacing">
+                </div>
+                <div class="spacing">
 
-        </div>
-        <div id="text2">
+                </div>
+                <div class="text2">
                 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet aut cupiditate ea enim esse est et ipsum libero nam nisi non obcaecati
                     perferendis provident quod, reiciendis repudiandae veniam voluptatibus.</span>
+                </div>
+            </div>
+            <div class="about-figures">
+                <div class="strap-gray"></div>
+                <div class="strap-blue"></div>
+                <div class="square-gray"></div>
+
+
+                <div class="strap-white"></div>
+            </div>
+
         </div>
-    </div>
-    <div id="about-figures">
-        <div id="strap-gray"></div>
-        <div id="strap-blue"></div>
-        <div id="square-gray"></div>
-
-
-
-        <div id="strap-white"></div>
-    </div>
-
-</div>
 
     </div>
 </section>
 <section>
-    <div id="break">
+    <div class="break">
 
     </div>
-    <div id="contact">
+    <div class="contact">
         <h1>contact</h1>
         <h5>We are born to create</h5>
-        <div id="mail">
+        <div class="mail">
             <h1>Feel free to drop us a line at:</h1>
             <h3>leonagency@mail.com</h3>
         </div>
-        <div id="networks">
+        <div class="networks">
             <span>Find us on social networks:</span>
-            <div id="network-img">
-                <img src="images/dribble.png" alt="dribble">
-                <img src="images/google.png" alt="google">
-                <img src="images/twitter.png" alt="twitter">
+            <div class="network-img">
+                <i class="fab fa-dribbble"></i>
+
+                <i class="fab fa-google-plus-g"></i>
+
+                <i class="fab fa-twitter"></i>
+
             </div>
 
 
@@ -221,13 +288,14 @@
 </section>
 
 <footer>
-    <div id="footer">
+    <div class="footer">
          <span>
         © 2019 - <span id="leon">Leon</span>,All Right Reserved
     </span>
     </div>
 
 </footer>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

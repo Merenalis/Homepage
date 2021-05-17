@@ -1,5 +1,5 @@
 @media screen and (max-width: 1856px) {
-    #portfolio-blocks {
+    .portfolio-blocks {
 
         width: 97%;
 
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1700px) {
-    #about-content {
+    .about-content {
 
         width: 80%;
 
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1251px) {
 
-    #blocks1, #blocks2 {
+    .blocks1, .blocks2 {
         display: initial;
 
     }
@@ -26,11 +26,11 @@
         margin-bottom: 20px;
     }
 
-    #gr-bl-blocks {
+    .gr-bl-blocks {
         margin-top: 150px;
     }
 
-    #services-blocks {
+    .services-blocks {
         width: 100%;
     }
 }
@@ -45,14 +45,23 @@
         width: 420px;
 
     }
+    .working{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
 }
-
+@media screen and (max-width: 1424px) {
+    .working{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
 @media screen and (max-width: 1319px) {
-    #portfolio {
+    .portfolio {
         height: 1970px;
     }
 
-    #portfolio-blocks {
+    .portfolio-blocks {
         display: initial;
         margin: auto;
     }
@@ -67,27 +76,36 @@
 
     }
 
-    #about-content {
+    .about-content {
 
         width: 95%;
 
     }
 
-    #mail h1 {
+    .mail h1 {
         font-size: 40px;
     }
 
-    #mail h3 {
+    .mail h3 {
         font-size: 35px;
     }
+    .working{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
-
+@media screen and (max-width: 1183px) {
+    .working{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
 @media screen and (max-width: 1087px) {
-    #text1, #text2 {
+    .text1, .text2 {
         width: 400px;
     }
 
-    #break {
+    .break {
         height: 625px;
 
     }
@@ -97,29 +115,32 @@
     .block {
         margin-left: 50px;
     }
-
+    .working{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 903px) {
-    #gr-bl-blocks {
+    .gr-bl-blocks {
         display: none;
     }
 
-    #about-figures {
+    .about-figures {
         margin-top: 20px;
         padding-left: 25%;
     }
 
-    #text1, #text2 {
+    .text1, .text2 {
         width: 800px;
     }
 
-    #break {
+    .break {
         height: 825px;
 
     }
 
-    #about h5 {
+    .about h5 {
         margin-bottom: 10px;
     }
 
@@ -127,49 +148,50 @@
         margin: auto auto 20px;
     }
 
-    #div-work {
+    .div-work {
         display: initial;
     }
 
     .working {
         height: 300px;
+        width: 400px;
     }
 
     .working img {
         padding-top: 30px;
     }
 
-    #services h1, #portfolio h1, #about h1 {
+    .services h1, .portfolio h1, .about h1 {
         font-size: 100px;
         line-height: 45px;
 
     }
 
-    #services h5, #portfolio h5, #about h5 {
+    .services h5, .portfolio h5, .about h5 {
         font-size: 20px;
     }
 
-    #mail h1 {
+    .mail h1 {
         margin-left: 7%;
     }
 
-    #mail h3 {
+    .mail h3 {
         margin-left: 10%;
     }
 
-    #about-section {
+    .about-section {
         height: 300px;
     }
 
 }
 
 @media screen and (max-width: 833px) {
-    #text1 {
+    .text1 {
         width: 720px;
 
     }
 
-    #text2 {
+    .text2 {
         width: 720px;
 
 
@@ -177,39 +199,39 @@
 }
 
 @media screen and (max-width: 779px) {
-    #text1 {
+    .text1 {
         width: 600px;
 
     }
 
-    #text2 {
+    .text2 {
         width: 600px;
     }
 
-    #about-text {
+    .about-text {
         margin-left: 300px;
 
     }
 
-    #contact h1 {
+    .contact h1 {
         font-size: 100px;
         line-height: 45px;
 
     }
 
-    #contact h5 {
+    .contact h5 {
         font-size: 20px;
     }
 
-    #mail h1 {
+    .mail h1 {
         font-size: 30px;
     }
 
-    #mail h3 {
+    .mail h3 {
         font-size: 22px;
     }
 
-    #contact {
+    .contact {
         height: 500px;
     }
 }
@@ -228,27 +250,27 @@
 }
 
 @media screen and (max-width: 625px) {
-    #about-text {
+    .about-text {
         margin-right: 50px;
     }
 
-    #text1 {
+    .text1 {
         font-size: 15px;
         width: 400px;
 
     }
 
-    #text2 {
+    .text2 {
         font-size: 12px;
         width: 400px;
         margin: auto;
     }
 
-    #about-figures {
+    .about-figures {
         padding-left: 80px;
     }
 
-    #networks {
+    .networks {
         margin-left: 15%;
     }
 }
@@ -264,19 +286,19 @@
 
     }
 
-    #about-figures {
+    .about-figures {
         padding-left: 20px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    #services h1, #portfolio h1, #about h1, #contact h1 {
+    .services h1, .portfolio h1, .about h1, .contact h1 {
         font-size: 95px;
         line-height: 40px;
 
     }
 
-    #services h5, #portfolio h5, #about h5, #contact h5 {
+    .services h5, .portfolio h5, .about h5, .contact h5 {
         font-size: 15px;
     }
 
@@ -284,9 +306,7 @@
         padding-right: 20px;
     }
 
-    #services-blocks {
-        margin-left: 20px;
-    }
+
 
     .block-text p {
         width: 225px;
@@ -294,75 +314,90 @@
 
     .block {
         padding-bottom: 80px;
-    }
 
-    #text1 {
+    }
+ .block img{
+padding-left: 18%;
+}
+    .text1 {
         width: 300px;
 
     }
 
-    #text2 {
+    .text2 {
         width: 300px;
     }
 
-    #about-figures {
+    .about-figures {
         display: none;
     }
 
-    #mail h1 {
+    .mail h1 {
         font-size: 20px;
     }
 
-    #mail h3 {
+    .mail h3 {
         font-size: 15px;
     }
 
-    #networks {
+    .networks {
         margin-left: 5%;
     }
 
-    #about-section {
+    .about-section {
         height: 70px;
     }
 
 }
-
+@media screen and (max-width: 450px) {
+    .block img{
+        padding-left: 12%;
+    }
+    .block{
+        width: 80%;
+    }
+}
 @media screen and (max-width: 426px) {
-    #networks {
+    .networks {
         margin-left: 8%;
     }
 
-    #networks span {
+    .networks span {
         margin-bottom: 10px;
     }
 
-    #network-img {
+    .network-img {
         display: flex;
         justify-content: space-between;
 
 
     }
 
-
+    .block img{
+        padding-left: 8%;
+    }
+    .working {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 398px) {
-    #services h1, #portfolio h1, #about h1, #contact h1 {
+    .services h1, .portfolio h1, .about h1, .contact h1 {
         font-size: 70px;
         line-height: 30px;
 
     }
 
-    #services h5, #portfolio h5, #about h5, #contact h5 {
+    .services h5, .portfolio h5, .about h5, .contact h5 {
         font-size: 15px;
 
     }
 
-    #mail h1 {
+    .mail h1 {
         font-size: 20px;
     }
 
-    #mail h3 {
+    .mail h3 {
         font-size: 15px;
     }
 
@@ -376,18 +411,18 @@
 
     }
 
-    #portfolio {
+    .portfolio {
 
         height: 1520px;
     }
 
-    #text1 {
+    .text1 {
         width: 200px;
         margin-left: 100px;
 
     }
 
-    #text2 {
+    .text2 {
         width: 200px;
         margin-left: 100px;
 
@@ -398,7 +433,26 @@
         margin-left: 100px;
 
     }
+.blocks1, .blocks2{
+    text-align: center;
+}
+    .block img{
+margin-left: 110px;
+    }
+    .block {
+width: 90%;
+        padding-bottom: 100px;
 
-    #about-text {
+    }
+    .block-text{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .block img{
+        margin-left: 90px;
+    }
+    .block-text{
+        padding-left: 30px;
     }
 }
