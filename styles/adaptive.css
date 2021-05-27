@@ -1,5 +1,5 @@
 @media screen and (max-width: 1856px) {
-    .portfolio-blocks {
+    .portfolio__blocks {
 
         width: 97%;
 
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1700px) {
-    .about-content {
+    .about__content {
 
         width: 80%;
 
@@ -16,92 +16,92 @@
 
 @media screen and (max-width: 1251px) {
 
-    .blocks1, .blocks2 {
+    .services__blocks1, .services__blocks2 {
         display: initial;
 
     }
 
-    .block {
+    .services__block {
         margin-left: 200px;
         margin-bottom: 20px;
     }
 
-    .gr-bl-blocks {
+    .services__gr-bl-blocks {
         margin-top: 150px;
     }
 
-    .services-blocks {
+    .services__blocks {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 1563px) {
 
-    .portf-block {
+    .portfolio__portf-block {
         width: 420px;
     }
 
-    .space {
+    .portfolio__space {
         width: 420px;
 
     }
-    .working{
+    .div-work__working{
         padding-left: 7%;
         padding-right: 7%;
     }
 }
 @media screen and (max-width: 1424px) {
-    .working{
+    .div-work__working{
         padding-left: 6%;
         padding-right: 6%;
     }
 }
 @media screen and (max-width: 1319px) {
-    .portfolio {
+    .sec-portfolio {
         height: 1970px;
     }
 
-    .portfolio-blocks {
+    .portfolio__blocks {
         display: initial;
         margin: auto;
     }
 
-    .portf-block {
+    .portfolio__portf-block {
         width: 700px;
         margin: auto auto 20px;
     }
 
-    .space {
+    .portfolio__space {
         width: 700px;
 
     }
 
-    .about-content {
+    .about__content {
 
         width: 95%;
 
     }
 
-    .mail h1 {
+    .contact__mail h1 {
         font-size: 40px;
     }
 
-    .mail h3 {
+    .contact__mail h3 {
         font-size: 35px;
     }
-    .working{
+    .div-work__working{
         padding-left: 5%;
         padding-right: 5%;
     }
 }
 @media screen and (max-width: 1183px) {
-    .working{
+    .div-work__working{
         padding-left: 3%;
         padding-right: 3%;
     }
 }
 @media screen and (max-width: 1087px) {
-    .text1, .text2 {
+    .about__text1, .about__text2 {
         width: 400px;
     }
 
@@ -112,31 +112,31 @@
 }
 
 @media screen and (max-width: 1015px) {
-    .block {
+    .services__block {
         margin-left: 50px;
     }
-    .working{
+    .div-work__working{
         padding-left: 0;
         padding-right: 0;
     }
 }
 
 @media screen and (max-width: 903px) {
-    .gr-bl-blocks {
+    .services__gr-bl-blocks {
         display: none;
     }
 
-    .about-figures {
+    .about__figures {
         margin-top: 20px;
         padding-left: 25%;
     }
 
-    .text1, .text2 {
+    .about__text1, .about__text2 {
         width: 800px;
     }
 
-    .break {
-        height: 825px;
+    .sec-about {
+        height: 1825px;
 
     }
 
@@ -144,7 +144,7 @@
         margin-bottom: 10px;
     }
 
-    .block {
+    .services__block {
         margin: auto auto 20px;
     }
 
@@ -152,16 +152,16 @@
         display: initial;
     }
 
-    .working {
+    .div-work__working {
         height: 300px;
         width: 400px;
     }
 
-    .working img {
+    .div-work__working img {
         padding-top: 30px;
     }
 
-    .services h1, .portfolio h1, .about h1 {
+    .sec-services h1, .sec-portfolio h1, .sec-about h1 {
         font-size: 100px;
         line-height: 45px;
 
@@ -171,27 +171,27 @@
         font-size: 20px;
     }
 
-    .mail h1 {
+    .contact__mail h1 {
         margin-left: 7%;
     }
 
-    .mail h3 {
+    .contact__mail h3 {
         margin-left: 10%;
     }
 
-    .about-section {
-        height: 300px;
+    .sec-about {
+        height: 700px;
     }
 
 }
 
 @media screen and (max-width: 833px) {
-    .text1 {
+    .about__text1 {
         width: 720px;
 
     }
 
-    .text2 {
+    .about__text2 {
         width: 720px;
 
 
@@ -199,21 +199,21 @@
 }
 
 @media screen and (max-width: 779px) {
-    .text1 {
+    .about__text1 {
         width: 600px;
 
     }
 
-    .text2 {
+    .about__text2 {
         width: 600px;
     }
 
-    .about-text {
+    .about__text {
         margin-left: 300px;
 
     }
 
-    .contact h1 {
+    .sec-contact h1 {
         font-size: 100px;
         line-height: 45px;
 
@@ -223,25 +223,25 @@
         font-size: 20px;
     }
 
-    .mail h1 {
+    .contact__mail h1 {
         font-size: 30px;
     }
 
-    .mail h3 {
+    .contact__mail h3 {
         font-size: 22px;
     }
 
-    .contact {
+    .sec-contact {
         height: 500px;
     }
 }
 
 @media screen and (max-width: 756px) {
-    .portf-block {
+    .portfolio__portf-block {
         width: 550px;
     }
 
-    .space {
+    .portfolio__space {
         width: 550px;
 
     }
@@ -250,49 +250,51 @@
 }
 
 @media screen and (max-width: 625px) {
-    .about-text {
+    .about__text {
         margin-right: 50px;
     }
 
-    .text1 {
+    .about__text1 {
         font-size: 15px;
         width: 400px;
 
     }
 
-    .text2 {
+    .about__text2 {
         font-size: 12px;
         width: 400px;
         margin: auto;
     }
 
-    .about-figures {
+    .about__figures {
         padding-left: 80px;
     }
 
-    .networks {
+    .contact__networks {
         margin-left: 15%;
     }
 }
 
 @media screen and (max-width: 572px) {
-    .portf-block {
+    .portfolio__portf-block {
         width: 350px;
     }
 
-    .space {
+    .portfolio__space {
         width: 350px;
         height: 270px;
 
     }
-
-    .about-figures {
+.sec-portfolio{
+    height: 1600px;
+}
+    .about__figures {
         padding-left: 20px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .services h1, .portfolio h1, .about h1, .contact h1 {
+    .sec-services h1, .sec-portfolio h1, .sec-about h1, .sec-contact h1 {
         font-size: 95px;
         line-height: 40px;
 
@@ -302,110 +304,112 @@
         font-size: 15px;
     }
 
-    .block img {
+    .services__block img {
         padding-right: 20px;
     }
 
 
 
-    .block-text p {
+    .services__block-text p {
         width: 225px;
     }
 
-    .block {
+    .services__block {
         padding-bottom: 80px;
 
     }
- .block img{
+ .services__block img{
 padding-left: 18%;
 }
-    .text1 {
+    .about__text1 {
         width: 300px;
 
     }
 
-    .text2 {
+    .about__text2 {
         width: 300px;
     }
 
-    .about-figures {
+    .about__figures {
         display: none;
     }
 
-    .mail h1 {
+    .contact__mail h1 {
         font-size: 20px;
     }
 
-    .mail h3 {
+    .contact__mail h3 {
         font-size: 15px;
     }
 
-    .networks {
+    .contact__networks {
         margin-left: 5%;
     }
 
-    .about-section {
-        height: 70px;
+    .sec-about {
+        height: 370px;
     }
 
 }
 @media screen and (max-width: 450px) {
-    .block img{
+    .services__block img{
         padding-left: 12%;
     }
-    .block{
+    .services__block{
         width: 80%;
     }
 }
 @media screen and (max-width: 426px) {
-    .networks {
+    .contact__networks {
         margin-left: 8%;
     }
 
-    .networks span {
+    .contact__networks span {
         margin-bottom: 10px;
     }
 
-    .network-img {
+    .contact__network-img {
         display: flex;
         justify-content: space-between;
 
 
     }
 
-    .block img{
+    .services__block img{
         padding-left: 8%;
     }
-    .working {
+    .div-work__working {
         width: 90%;
     }
 }
 
 @media screen and (max-width: 398px) {
-    .services h1, .portfolio h1, .about h1, .contact h1 {
+    .sec-services h1, .sec-portfolio h1, .sec-about h1, .sec-contact h1 {
         font-size: 70px;
         line-height: 30px;
 
     }
-
+    .sec-about {
+        height: 570px;
+    }
     .services h5, .portfolio h5, .about h5, .contact h5 {
         font-size: 15px;
 
     }
 
-    .mail h1 {
+    .contact__mail h1 {
         font-size: 20px;
     }
 
-    .mail h3 {
+    .contact__mail h3 {
         font-size: 15px;
     }
 
-    .portf-block {
+    .portfolio__portf-block {
         width: 300px;
     }
 
-    .space {
+    .portfolio__space {
         width: 300px;
         height: 222px;
 
@@ -416,43 +420,43 @@ padding-left: 18%;
         height: 1520px;
     }
 
-    .text1 {
+    .about__text1 {
         width: 200px;
         margin-left: 100px;
 
     }
 
-    .text2 {
+    .about__text2 {
         width: 200px;
         margin-left: 100px;
 
     }
 
-    .spacing {
+    .about__spacing {
         width: 80%;
         margin-left: 100px;
 
     }
-.blocks1, .blocks2{
+.services__blocks1, .services__blocks2{
     text-align: center;
 }
-    .block img{
+    .services__block img{
 margin-left: 110px;
     }
-    .block {
+    .services__block {
 width: 90%;
         padding-bottom: 100px;
 
     }
-    .block-text{
+    .services__block-text{
         padding-left: 50px;
     }
 }
 @media screen and (max-width: 320px) {
-    .block img{
+    .services__block img{
         margin-left: 90px;
     }
-    .block-text{
+    .services__block-text{
         padding-left: 30px;
     }
 }

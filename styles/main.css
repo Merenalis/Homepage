@@ -8,6 +8,7 @@ margin: 0;
     padding: 0;
 
 }
+
 .logo{
     width: 56%;
     margin: 35px auto 25px;
@@ -18,10 +19,24 @@ margin: 0;
     color: #575757;
     float: right;
 font-size: 30px;
+
 }
-.burger.active{
+
+.show {
+    display: none;
+}
+.show + label ~ div{
+    display: none;
+}
+.show + label  {
+    cursor: pointer;
+}
+.show:checked + label  + div{
     display: block;
 }
+
+
+
 .hello{
     height: 460px;
     text-align: center;
@@ -45,7 +60,7 @@ font-size: 55px;
     text-align: center;
 
 }
-.working{
+.div-work__working{
 margin: auto;
     height: 400px;
 padding-left: 7.5%;
@@ -54,7 +69,7 @@ padding-left: 7.5%;
 
 
 
-.working p{
+.div-work__working p{
 width: 275px;
     font-size: 15px;
     line-height: 32px;
@@ -62,12 +77,12 @@ color: #575757;
     padding-bottom: 65px;
     margin: auto ;
 }
-.working h3{
+.div-work__working h3{
     font-size: 20px;
     color: #2c4755;
     padding-bottom: 30px;
 }
-.working img{
+.div-work__working img{
     padding-top: 75px;
     padding-bottom: 35px;
 }
@@ -76,14 +91,14 @@ color: #575757;
     box-shadow: 4px 4px 5px  rgba(0,0,0,0.1);
 
 }
-.working :hover{
+.div-work__working :hover{
     box-shadow: none;
 }
 /*__________________________________________________SERVICES____________*/
 .services{
     width: 100%;
 }
-.services h1{
+.sec-services h1{
     font-size: 162px;
     color: #f6f6f6;
     line-height: 85px;
@@ -97,42 +112,42 @@ color: #626262;
 text-decoration: none;
     font-weight: normal;
 }
-.services-blocks{
+.services__blocks{
     width: 1300px;
 
     margin: 140px auto auto;
 }
-.blocks1{
+.services__blocks1{
     display: flex;
     margin-bottom: 40px;
 }
-.blocks2{
+.services__blocks2{
     display: flex;
 
 }
-.block{
+.services__block{
     height: 170px;
     width: 450px;
 }
-.block-text{
+.services__block-text{
     float: left;
 }
-.block img{
+.services__block img{
     float: left;
     padding-top: 10px;
     padding-right: 40px;
 }
-.block-text h2{
+.services__block-text h2{
     margin-bottom: 40px;
 }
-.block-text p{
+.services__block-text p{
     line-height: 27px;
     width: 325px;
 }
-.gr-bl-blocks{
+.services__gr-bl-blocks{
 float: right;
 }
-.gray-block{
+.services__gray-block{
     position: relative;
     float: left;
     width: 300px;
@@ -141,7 +156,7 @@ float: right;
 right: 90px;
     box-shadow: -1px 5px 5px rgba(0,0,0,0.1);
 }
-.blue-block{
+.services__blue-block{
     position: relative;
     right: -240px;
     top: -50px;
@@ -153,19 +168,22 @@ right: 90px;
 /*_____________________________________________PORTFOLIO__________________________
 
  */
-.portfolio{
-    background-color: #fafafa;
+.sec-portfolio{
     margin-top: 100px;
+    background-color: #fafafa;
     height: 970px;
+
 }
-.portfolio h1{
-    font-size: 162px;
-    color: #f6f6f6;
-    line-height: 85px;
-    text-align: center;
-    padding-top: 75px;
+
+ .sec-portfolio h1{
+     font-size: 162px;
+     color: #f6f6f6;
+     line-height: 85px;
+     text-align: center;
+     margin-top: 85px;
+padding-top: 75px;
 }
-.portfolio h5{
+.sec-portfolio h5{
     font-size: 25px;
     color: #626262;
     text-align: center;
@@ -173,47 +191,47 @@ right: 90px;
     font-weight: normal;
     margin-bottom: 100px;
 }
-.portfolio-blocks{
+.portfolio__blocks{
 
     width: 82%;
     display: flex;
     justify-content: space-between;
     margin: auto;
 }
-.portf-block{
+.portfolio__portf-block{
     width: 500px;
 }
-.space{
+.portfolio__space{
     height: 370px;
 width: 500px;
     background-color: #f6f6f6;
 
 }
-.proj-here{
+.portfolio__proj-here{
 
     height: 130px;
 float: bottom;
     background-color: white;
     padding-left: 30px;
 }
-.proj-here h3{
+.portfolio__proj-here h3{
     font-size: 20px;
     line-height: 47px;
 
 }
-.proj-here span{
+.portfolio__proj-here span{
     font-size: 15px;
     line-height: 27px;
 }
 /*________________________________about___________________*/
-.about-section{
+.sec-about{
     height: 450px;
 }
-.about-content{
+.about__content{
     width: 62%;
     margin: auto;
 }
-.about h1{
+.sec-about h1{
     font-size: 162px;
     color: #f6f6f6;
     line-height: 85px;
@@ -228,12 +246,12 @@ float: bottom;
     font-weight: normal;
     margin-bottom: 100px;
 }
-.about-figures{
+.about__figures{
     width: 400px;
     height: 440px;
     float: left;
 }
-.square-gray{
+.about__square-gray{
     position: relative;
 top: -393px;
     right: -12px;
@@ -244,7 +262,7 @@ top: -393px;
     box-shadow: -1px 5px 5px rgba(0,0,0,0.1);
 
 }
-.strap-gray{
+.about__strap-gray{
     position: relative;
     width: 110px;
     height: 453px;
@@ -252,7 +270,7 @@ top: -393px;
     float: left;
 
 }
-.strap-blue{
+.about__strap-blue{
     position: relative;
     right: -45px;
     top: 35px;
@@ -262,7 +280,7 @@ top: -393px;
     float: right;
 
 }
-.strap-white{
+.about__strap-white{
     position: relative;
 top: -751px;
     right: -45px;
@@ -275,42 +293,41 @@ border: white 1px solid;
 
 
 
-.about-text{
+.about__text{
     float: right;
     margin-top: 50px;
 }
 
-.text1{
+.about__text1{
     width: 570px;
     font-size: 20px;
     color: #334752;
     line-height: 40px;
     font-weight: bold;
 }
-.text2{
+.about__text2{
     width: 570px;
     font-size: 15px;
     line-height: 32px;
 
 }
-.spacing{
+.about__spacing{
     width: 273px;
     border-bottom: #10cab7 solid 3px;
     margin-bottom: 25px;
     margin-top: 55px;
 }
 /*__________________________________CONTACT________*/
-.break{
-    width: 100%;
-    height: 525px;
 
-}
-.contact{
-    background-color: #fafafa;
+.sec-contact{
+    margin-top: 400px;
     height: 700px;
+    background-color: #fafafa;
+
 
 }
-.contact h1{
+
+.sec-contact h1{
     font-size: 162px;
     color: #f6f6f6;
     line-height: 85px;
@@ -325,7 +342,7 @@ border: white 1px solid;
     font-weight: normal;
     margin-bottom: 100px;
 }
-.mail h1{
+.contact__mail h1{
     font-size: 55px;
     color: #2c4755;
     padding-top: 0;
@@ -333,26 +350,26 @@ border: white 1px solid;
 margin-left: 19%;
 line-height: 92px;
 }
-.mail h3{
+.contact__mail h3{
     font-size: 50px;
     color: #10cab7;
     margin-left: 22%;
 
 }
-.networks{
+.contact__networks{
     margin-left: 25%;
     margin-top: 50px;
 }
-.networks span{
+.contact__networks span{
     font-size: 15px;
     color: #40535d;
     float: left;
 margin-right: 40px;
 }
-.network-img{
+.contact__network-img{
     float: left;
 }
-.network-img i{
+.contact__network-img i{
     font-size: 25px;
     color: #2c4755;
     margin-right: 29px;

@@ -10,40 +10,36 @@ color: #ffffff;
     font-size: 29px;
     font-family: 'Work Sans', sans-serif;
     line-height: 35px;
-    display: none;
+
  position: fixed;
     top: 0;
     left: 0;
     z-index: 50;
 }
-@media screen and (max-width: 768px) {
-    .burger{
-        display: none;
-    }
 
-}
-.burger-content {
+.burger__content {
 padding-left: 60px;
     padding-top: 33px;
 }
-.burger-content img{
+.burger__content img{
     margin-bottom: 25px;
+    cursor: pointer;
 }
-.header_list{
+.header-list{
     list-style-type: none;
 padding-bottom: 55px;
 }
-.header_list li{
+.header-list li{
 }
-.header_list a, .header_menu a{
+.header-list a, .burger__header-menu a{
     text-decoration: none;
     color: #ffffff;
 }
-.title{
+.burger__title{
     color: #637988;
     font-size: 21px;
     padding-bottom: 25px;
 }
-.getSocial{
+.burger__get-Social{
     margin-top: 40px;
 }
