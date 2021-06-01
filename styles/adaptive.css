@@ -94,6 +94,11 @@
         padding-right: 5%;
     }
 }
+@media screen and (max-width: 1300px) {
+.services__blocks{
+    width: 100%;
+}
+}
 @media screen and (max-width: 1183px) {
     .div-work__working{
         padding-left: 3%;

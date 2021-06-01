@@ -98,7 +98,7 @@ color: #575757;
 .services{
     width: 100%;
 }
-.sec-services h1{
+.sec-h h1{
     font-size: 162px;
     color: #f6f6f6;
     line-height: 85px;
@@ -176,11 +176,7 @@ right: 90px;
 }
 
  .sec-portfolio h1{
-     font-size: 162px;
-     color: #f6f6f6;
-     line-height: 85px;
-     text-align: center;
-     margin-top: 85px;
+
 padding-top: 75px;
 }
 .sec-portfolio h5{
